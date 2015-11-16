@@ -23,6 +23,7 @@ Or install it yourself as:
 
 Include '//= require timeago' in your application.js
 
+[Gem link](https://rubygems.org/gems/relative-time)
 
 ## Development
 
