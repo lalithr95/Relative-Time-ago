@@ -1,8 +1,7 @@
 # Relative::Time
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/relative/time`. To experiment with that code, run `bin/console` for an interactive prompt.
+Relative Time ago gem is used to calulate the relative time instead of using naive ruby time_ago_in_words helper method.
 
-TODO: Delete this and the text above, and describe your gem
 
 ## Installation
 
@@ -22,7 +21,8 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Include '//= require timeago' in your application.js
+
 
 ## Development
 

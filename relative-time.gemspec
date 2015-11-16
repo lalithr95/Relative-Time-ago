@@ -9,15 +9,16 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Lalith"]
   spec.email         = ["lalithr95@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{Relative timeago gem gives the real time updated time on the web page.}
+  spec.description   = %q{Relative Time ago gem is used to calulate the relative time instead of using naive ruby time_ago_in_words helper method.
+}
+  spec.homepage      = "https://github.com/lalithr95/Relative-Time-ago"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
   # delete this section to allow pushing this gem to any host.
   if spec.respond_to?(:metadata)
-    spec.metadata['allowed_push_host'] = "TODO: Set to 'http://mygemserver.com'"
+    spec.metadata['allowed_push_host'] = "https://rubygems.org"
   else
     raise "RubyGems 2.0 or newer is required to protect against public gem pushes."
   end
